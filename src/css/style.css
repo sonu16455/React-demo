@@ -1,4 +1,4 @@
-body {
+.body {
     font-family:'Roboto', sans-serif;
     color: #FFF;
     line-height:1.2em;
@@ -59,10 +59,10 @@ body {
     color: #000;
 }
 
-.nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+/* .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
     background: #181A1C;
     color: #fff;
-}
+} */
 
 .da-slide{
     position: absolute;
