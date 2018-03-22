@@ -64,7 +64,7 @@
     color: #fff;
 } */
 
-.da-slide{
+.back{
     position: absolute;
     top: 0;
     left: 0;
@@ -95,22 +95,9 @@
     overflow: hidden;
     background: transparent url(../images/background.png) repeat-x 0% center; /* Replace with your background image*/
     background-size:auto 100%;
-    -webkit-transition: background-position 1s ease-out 0.3s;
-    -moz-transition: background-position 1s ease-out 0.3s;
-    -o-transition: background-position 1s ease-out 0.3s;
-    -ms-transition: background-position 1s ease-out 0.3s;
-    transition: background-position 1s ease-out 0.3s;
 }
 
-/* .da-img{
-    width: auto\9;
-    height: auto;
-    max-width: 100%;
-    vertical-align: center;
-    border: 0;
-} */
-
-.da-slide .da-img {
+.back .da-img {
     float:right;
     text-align: center;
     width: 40%;
@@ -120,7 +107,7 @@
     left: 110%;
 }
 
-.da-slide .container {
+.back .container {
     margin-top: -30px;
     position: relative;
     height: 100%;
@@ -140,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     margin: 10px;
 }
-.da-slide p {
+.back p {
     width: 45%;
     padding:0px;
     top: 230px;
@@ -150,33 +137,33 @@ h1 {
     font-weight: 400;
 }
 
-.da-slide h2,
-.da-slide h4{
+.back h2,
+.back h4{
     color: #181A1C;
     text-transform:uppercase;
       white-space: nowrap;
     z-index: 10;
 }
-.da-slide h2 {
+.back h2 {
     font-size: 33px;
     width: 50%;
     top: 120px;
     font-weight:bold;
 }
 
-.da-slide h4{
+.back h4{
     width: 50%;
     font-size:22px;
     top: 175px;
     font-weight: normal;
 }
 
-.da-slide h2, h4, p,a{
+.back h2, h4, p,a{
     margin-left:200px;
     margin-top:50px;
 }
 
-.da-slide .da-img{
+.back .da-img{
     margin-left:300px;
     margin-top:-200px;
 }
