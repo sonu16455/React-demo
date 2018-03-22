@@ -19,8 +19,7 @@ class Person extends React.Component{
                 <div class="container">
                     <a href="#" class="brand">
                         <img src="../src/images/logo.png" width="120" height="40" alt="Logo" />
-                       
-                    </a>
+                        </a>
                     
                     <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                         <i class="icon-menu"></i>
@@ -58,11 +57,7 @@ class Person extends React.Component{
 
                         <div class="da-img"><img src="../src/images/mobile.png" width="320" alt="image02"/></div>
                         </div>
-                    
-        
-        
-        
-        </div>
+                     </div>
         </div>
         </div>
         );
