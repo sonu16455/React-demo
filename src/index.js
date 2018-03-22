@@ -46,8 +46,6 @@ class Person extends React.Component{
         <div id="da-slider" class="da-slider">
              <div class="top-cut"></div>
 
-            <div class="mask"></div>
-
                  <div class="container">
              
                     <div class="da-slide">
@@ -56,7 +54,7 @@ class Person extends React.Component{
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. 
                              Separated they live in Bookmarksgrove right at the coast of the Semantics, 
                              a large language ocean.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <button><a href="#" class="da-link button">Read more</a></button>
 
                         <div class="da-img"><img src="../src/images/mobile.png" width="320" alt="image02"/></div>
                         </div>
